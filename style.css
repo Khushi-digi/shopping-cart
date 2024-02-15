@@ -1,0 +1,35 @@
+*{
+    font-family: poppins;
+}
+.products::-webkit-scrollbar{
+    display: none;
+}
+
+.categories::-webkit-scrollbar{
+    display: none;
+}
+
+.populars::-webkit-scrollbar{
+    display: none;
+}
+
+.shader{
+    background: linear-gradient(to right bottom, #69628a, #040309);
+}
+.cart{
+    position: relative;
+}
+span.cart-count{
+    background: linear-gradient(to right,#5C5579,#100E18);
+    color: white;
+    height: 20px;
+    font-size: 10px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    left: 45%;
+    text-align: center;
+    padding-top: 3px;
+    box-shadow: 1px 3px 5px rgba(35, 35, 35, 0.621);
+}
